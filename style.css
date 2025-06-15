@@ -1,0 +1,119 @@
+body{
+    background-color: rgba(0,0,0, 0.8);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h3{
+    margin-top: 0;
+    text-align: center;
+    background-color: rgba(127, 255, 212,1);
+    color: black;
+    /* border-radius: 4rem; */
+    /* width: max-content; */
+    /* color: antiquewhite; */
+}
+h1{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.input{
+    height: 3rem;
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 2rem;
+    background-color: rgba(127, 255, 212,0.35);
+    /* border-radius: 4rem; */
+    /* width: max-content; */
+}
+.input input{
+    width: 70%;
+    height: 1rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    border: 5px solid white;
+    border-radius: 50px;
+}
+.addBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1.25rem;
+    width: 1.25rem;
+    border: 2px solid rgba(127, 255, 212,1);
+    border-radius: 50%;
+    margin-left: 0.5rem;
+    /* padding: 10px; */
+    background-color: rgba(127, 255, 212,1);
+    color: blue;
+    /* font-weight: 900; */
+    font-size: large;
+}
+.addBtn:hover{
+    /* transform: scale(1.15); */
+    font-weight: bolder;
+    transition-duration: 500ms;
+    /* pointer-events:painted; */
+}
+.background{
+    display: flex;
+    justify-content: space-evenly;
+    /* justify-content: center; */
+    /* flex-wrap: wrap; */
+}
+.addedTask{
+    display: flex;
+    display: inline-block;
+    border-bottom: 2px solid blue;
+    /* border: 2px solid rgba(127, 255, 212,0.25); */
+    border-radius: 0 0 1rem 1rem;
+    /* flex-wrap: wrap; */
+    height: max-content;
+    width: 20rem;
+    /* max-width: max-content; */
+    /* margin-right: 5rem; */
+    background-color: rgba(127, 255, 212,0.25);
+    color: black;
+    text-transform:capitalize;
+}
+.addedTask ol button{
+    background-color: rgb(5, 147, 154);
+    color: azure;
+    border: 2px solid rgb(5, 147, 154);
+    border-radius: 4rem;
+    margin-left: 10px;
+}
+.completedTask{
+    display: flex;
+    display: inline-block;
+    /* border: 2px solid black; */
+    border-bottom:2px solid  rgb(9, 217, 9);
+    border-radius: 0 0 1rem 1rem;
+    flex-wrap: wrap;
+    width: 20rem;
+    height: max-content;
+    background-color: rgba(127, 255, 212,0.25);
+    color: antiquewhite;
+    text-transform:capitalize;
+}
+.completedTask ul button{
+    background-color: rgba(20, 177, 9, 0.85);
+    border: 2px solid rgba(20, 177, 9, 0.85);
+    border-radius: 4rem;
+    margin-left: 10px;
+    color: azure;
+    /* font-weight: 400; */
+    /* color: white; */
+}
+.completedTask ul .delBtn{
+    border: 2px solid rgb(187, 9, 9);
+    background-color: rgb(187, 9, 9);
+    border-radius: 4rem;
+    color: azure;
+}
+li{
+    margin-bottom: 0.5rem;
+}
